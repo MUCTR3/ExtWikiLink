@@ -1,10 +1,10 @@
-# MarkLink
+# ExtWikkiLink
 
-A browser extension for Chrome and Firefox that generates formatted Markdown links with one click.
+A browser extension for Chrome and Firefox that generates formatted wiki-text links with one click.
 
 ## Features
 
-- Instant Markdown link generation with `[Title - Creator](URL)` format
+- Instant wiki-text link generation with `[URL Title - Creator]` format
 - Automatic metadata extraction (page title, author/creator)
 - YouTube playlist support
 - YouTube links strip resume-time params (`t`, `time_continue`, `start`, `end`, `#t=`)
@@ -25,23 +25,23 @@ You can install MarkLink in Firefox in two ways:
 
 **Option 1: Install from the Firefox Add-ons Store**
 
-- Visit the [Firefox Add-ons Store page](https://addons.mozilla.org/en-US/firefox/addon/marklink/) and click "Add to Firefox".
+<!-- - Visit the [Firefox Add-ons Store page](https://addons.mozilla.org/en-US/firefox/addon/marklink/) and click "Add to Firefox". -->
 
 **Option 2: Install manually from GitHub**
 
-- Download the latest `.xpi` file from the [GitHub Releases page](https://github.com/riannegreiros/marklink/releases).
+- Download the latest `.xpi` file from the <!--  [GitHub Releases page](https://github.com/riannegreiros/marklink/releases). -->
 - Open `about:addons` in Firefox, click the gear icon, and choose "Install Add-on From File..."
 - Select the downloaded `.xpi` file to install MarkLink permanently.
 
 ## Usage
 
 1. Visit a webpage
-2. Use any of these methods:
+<!-- 2. Use any of these methods:
    - Click the MarkLink icon
    - Press Alt+M
    - Right-click and select "Copy as Markdown Link"
 3. Paste the generated link in Obsidian (or any Markdown editor)
-
+-->
 ## Settings
 
 Access the options page to customize:
